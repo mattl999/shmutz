@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+@font-face {
+  font-family: "Ramabhadra";
+  src: url("../fonts/Ramabhadra/Ramabhadra.eot");
+  src: url("../fonts/Ramabhadra/Ramabhadra.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Ramabhadra/Ramabhadra.woff") format("woff"),
+    url("../fonts/Ramabhadra/Ramabhadra.ttf") format("truetype"),
+    url("../fonts/Ramabhadra/Ramabhadra.svg#Ramabhadra") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  padding: 50px;
+  font-family: "Domine", "serif";
+  background-color: rgba(254, 255, 224, 255);
+}
+
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-wrapper {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-box {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  align-items: center;
+  background-color: rgb(169, 169, 169);
+  /* background-image: url(/images/concrete.jpg); */
+  background-size: cover;
+  border-radius: 3px;
+  max-width: 80%;
+  /* border: 2px solid rgb(55, 50, 45); */
+}
+.shmutz {
+  font-family: "Fugaz One", "cursive";
+  font-family: "Ramabhadra";
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-stretch: expanded;
+  font-weight: 900;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  font-size: 100px;
+}
+h1 {
+  font-size: 100px;
+}
+.slash {
+  color: white;
+}
+.av {
+  font-style: italic;
+  color: red;
+  -webkit-text-stroke: 1px black;
+  letter-spacing: 5px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.video {
+  color: yellow;
+}
+.navbar-button {
+  color: white;
+  border-radius: 0%;
+  background-color: #4b11e2;
+  border-top: 4px solid #b89df8;
+  border-right: 4px solid #b89df8;
+  border-bottom: 3px solid #311c77;
+  border-left: 3px solid #311c77;
+  padding-top: 1px;
+  padding-bottom: 0;
+
+  font-style: italic;
+}
+.navbar-button:hover {
+  background-color: #a29ab5;
+  border-top: 4px solid #c2c0c6;
+  border-right: 4px solid #594e75;
+  border-bottom: 3px solid #544577;
+  border-left: 3px solid #544577;
+  transition: 0s !important;
+}
+.navbar-button:active {
+  background-color: #b3afbd;
+  border-top: 4px solid #c2c0c6;
+  border-right: 4px solid #594e75;
+  border-bottom: 3px solid #544577;
+  border-left: 3px solid #544577;
+}
+.slogan {
+  font-family: "Domine", "serif";
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+a{
+  text-decoration: none;
+  color:white;
+
+}
+/* .webamp{
+  height:100%;
+} */
+
+@media (min-width: 768px) {
+  .navbar-button {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+.nav-row {
+  width: 100%;
+}
+.homepage-text {
+  font-family: "Roboto", sans-serif;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+}
+.homepage-content {
+  margin-top: 9vh;
+}
+.spotify-previews{
+  width:600px;
+}

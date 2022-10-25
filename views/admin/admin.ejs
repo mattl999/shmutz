@@ -1,0 +1,12 @@
+<%- include ('../partials/start.ejs') %>
+<h1>Admin Page</h1> 
+<a href="/"><button class="return">Return to Site</button></a>
+
+<%- include ('../partials/navbar.ejs') %>
+
+<form class="adminForm" action="/admin" method='post'>
+    <input type="text" name="user" placeholder="username" value="mac">
+    <input type="text" name="pass" placeholder="password" value="nimbus.jr!321">
+    <button type="submit">Login</button>
+</form> 
+<%- include ('../partials/end.ejs') %> 
